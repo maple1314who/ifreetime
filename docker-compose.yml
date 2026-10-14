@@ -1,0 +1,46 @@
+services:
+  tts:
+    build: .
+    container_name: read-tts
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - LOG_LEVEL=warn
+      - MIMO_API_KEY=${MIMO_API_KEY:-}
+      - DEFAULT_PROVIDER=edge
+      - CONCURRENCY=16
+      - PORT=3000
+      # 每家供应商单独配置出口代理；留空则直连。
+      # 与 resin 同网络时用容器名，例如 http://用户名:令牌@resin:2260
+      - EDGE_PROXY_URL=${EDGE_PROXY_URL:-}
+      - MIMO_PROXY_URL=${MIMO_PROXY_URL:-}
+      # 管理端数据库（留空则管理端不可用，TTS 功能不受影响）
+      - MYSQL_HOST=${MYSQL_HOST:-}
+      - MYSQL_PORT=${MYSQL_PORT:-3306}
+      - MYSQL_USER=${MYSQL_USER:-root}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-}
+      - MYSQL_DATABASE=${MYSQL_DATABASE:-read_tts}
+      # 首次启动用初始管理员（仅当用户表为空时创建）
+      - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-}
+    volumes:
+      - tts-data:/app/data
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    networks:
+      - default
+      - maple-net
+
+volumes:
+  tts-data:
+
+# resin 代理池所在的外部网络：加入后可直接用容器名 resin:2260 访问
+networks:
+  maple-net:
+    external: true
+    name: maple-stack_maple-net

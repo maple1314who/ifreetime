@@ -1,0 +1,146 @@
+{
+  "loginUrl": "",
+  "customRules": {},
+  "_TTSName": "Edge + MiMo 中文音色",
+  "_ClassName": "JxdAdvCustomTTS",
+  "ttsConfigGroup": "Read TTS",
+  "_TTSConfigID": "ceb3ef50839b99580844c66b1feb3672",
+  "ttsHandles": [
+    {
+      "finishedRule": "",
+      "paramsEx": "",
+      "processType": 1,
+      "method": 1,
+      "url": "https://tts.hgyule.cn/v1/tts",
+      "parser": {
+        "playData": "ResponseData"
+      },
+      "params": {
+        "volume": "",
+        "pitch": "",
+        "rate": "",
+        "text": "%@",
+        "provider": "@json:provider",
+        "voiceName": "@json:voiceName",
+        "format": "@json:format"
+      }
+    }
+  ],
+  "voiceList": [
+    {
+      "name": "zh-CN-XiaoxiaoNeural",
+      "display": "晓晓",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-XiaoyiNeural",
+      "display": "晓伊",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunjianNeural",
+      "display": "云健",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunxiNeural",
+      "display": "云希",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunxiaNeural",
+      "display": "云晓",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunyangNeural",
+      "display": "云扬",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-liaoning-XiaobeiNeural",
+      "display": "晓北（辽宁）",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-shaanxi-XiaoniNeural",
+      "display": "晓妮（陕西）",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-HK-HiuGaaiNeural",
+      "display": "晓佳",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-HK-HiuMaanNeural",
+      "display": "晓曼",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-HK-WanLungNeural",
+      "display": "云龙",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-TW-HsiaoChenNeural",
+      "display": "晓臻",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-TW-YunJheNeural",
+      "display": "云哲",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-TW-HsiaoYuNeural",
+      "display": "晓雨",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mimo_default",
+      "display": "MiMo 默认",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "冰糖",
+      "display": "冰糖（女声，甜美）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "茉莉",
+      "display": "茉莉（女声，温柔）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "苏打",
+      "display": "苏打（女声，活泼）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "白桦",
+      "display": "白桦（男声，成熟）",
+      "provider": "mimo",
+      "format": "mp3"
+    }
+  ],
+  "authorID": "ivBfbQCzRT6RTO1wGagmAUeJuyUSazgY5ktKWf3Lc7ot2KeKpM56kjQDveisFVa7"
+}

@@ -1,0 +1,19 @@
+node_modules/
+data/
+*.log
+.DS_Store
+
+# IDE
+.idea/
+
+# 工具运行记录
+.reasonix/
+reasonix.toml
+
+# Local credentials and client configurations
+.env
+.env.*
+!.env.example
+!.env.template
+docs/client-config.json
+docs/tts-import-*-token.json

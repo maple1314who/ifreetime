@@ -1,0 +1,73 @@
+{
+  "loginUrl": "",
+  "customRules": {},
+  "_TTSName": "Edge + MiMo 语音朗读",
+  "_ClassName": "JxdAdvCustomTTS",
+  "ttsConfigGroup": "Read TTS",
+  "_TTSConfigID": "01M1KDGGKGJRM8DEBQG03JTH9M",
+  "ttsHandles": [
+    {
+      "finishedRule": "",
+      "paramsEx": "",
+      "processType": 1,
+      "method": 0,
+      "url": "http://127.0.0.1:3000/v1/tts",
+      "parser": {
+        "playData": "ResponseData"
+      },
+      "params": {
+        "volume": "",
+        "pitch": "",
+        "rate": "",
+        "text": "%@",
+        "provider": "@json:provider",
+        "voiceName": "@json:voiceName",
+        "format": "@json:format"
+      }
+    }
+  ],
+  "voiceList": [
+    {
+      "name": "zh-CN-XiaoxiaoNeural",
+      "display": "晓晓（Edge 女声）",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunxiNeural",
+      "display": "云希（Edge 男声）",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mimo_default",
+      "display": "MiMo 默认",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "冰糖",
+      "display": "冰糖（MiMo 女声）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "茉莉",
+      "display": "茉莉（MiMo 女声）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "苏打",
+      "display": "苏打（MiMo 女声）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "白桦",
+      "display": "白桦（MiMo 男声）",
+      "provider": "mimo",
+      "format": "mp3"
+    }
+  ]
+}

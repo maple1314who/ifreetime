@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS 测试界面 - read-tts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 12px;
+            font-size: 16px;
+            resize: vertical;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        select, input[type="text"], input[type="password"], input[type="number"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        select:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .audio-player {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            display: none;
+        }
+
+        .audio-player.show {
+            display: block;
+        }
+
+        .audio-player h3 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        audio {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .stats {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e8f4fd;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #0c5460;
+            display: none;
+        }
+
+        .stats.show {
+            display: block;
+        }
+
+        .error {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            color: #721c24;
+            display: none;
+        }
+
+        .error.show {
+            display: block;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .footer {
+            padding: 20px 40px;
+            background: #f8f9fa;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .api-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f9ff;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+
+        .api-info h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .api-info pre {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .api-info code {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎤 TTS 测试界面</h1>
+            <p>read-tts 多供应商语音合成服务测试</p>
+        </div>
+
+        <div class="content">
+            <form id="ttsForm">
+                <div class="form-group">
+                    <label for="text">文本内容</label>
+                    <textarea id="text" placeholder="请输入要合成的文本...">你好，这是一个语音合成测试。</textarea>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="provider">供应商</label>
+                        <select id="provider">
+                            <option value="edge">Edge TTS（默认）</option>
+                            <option value="mimo">MiMo（小米）</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="voice">语音</label>
+                        <select id="voice">
+                            <option value="zh-CN-XiaoxiaoNeural">晓晓（女声，温暖）</option>
+                            <option value="zh-CN-YunxiNeural">云希（男声，阳光）</option>
+                            <option value="zh-CN-YunjianNeural">云健（男声，成熟）</option>
+                            <option value="zh-CN-XiaoyiNeural">晓伊（女声，活泼）</option>
+                            <option value="zh-CN-YunyangNeural">云扬（男声，专业）</option>
+                            <option value="zh-CN-XiaohanNeural">晓涵（女声，温柔）</option>
+                            <option value="zh-CN-YunzeNeural">云泽（男声，沉稳）</option>
+                            <option value="zh-CN-XiaomengNeural">晓梦（女声，甜美）</option>
+                            <option value="zh-CN-XiaoruiNeural">晓睿（女声，知性）</option>
+                            <option value="zh-CN-XiaoshuangNeural">晓双（女声，童声）</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="format">音频格式</label>
+                        <select id="format">
+                            <option value="mp3">MP3</option>
+                            <option value="wav">WAV</option>
+                            <option value="ogg">OGG</option>
+                            <option value="pcm">PCM</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rate">语速</label>
+                        <select id="rate">
+                            <option value="-50%">0.5x（慢速）</option>
+                            <option value="-25%">0.75x</option>
+                            <option value="+0%">1x（正常）</option>
+                            <option value="+25%">1.25x</option>
+                            <option value="+50%">1.5x</option>
+                            <option value="+75%">1.75x</option>
+                            <option value="+100%">2x（快速）</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="pitch">音调</label>
+                        <select id="pitch">
+                            <option value="-50%">低音</option>
+                            <option value="-25%">稍低</option>
+                            <option value="+0%">正常</option>
+                            <option value="+25%">稍高</option>
+                            <option value="+50%">高音</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="volume">音量</label>
+                        <select id="volume">
+                            <option value="-50%">50%</option>
+                            <option value="-25%">75%</option>
+                            <option value="+0%">100%（正常）</option>
+                            <option value="+25%">125%</option>
+                            <option value="+50%">150%</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="token">API Token（MiMo 可选）</label>
+                    <input type="password" id="token" placeholder="输入 MiMo API Key（可选）">
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="submitBtn">
+                    🎤 开始合成
+                </button>
+            </form>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>正在合成语音，请稍候...</p>
+            </div>
+
+            <div class="error" id="error">
+                <strong>❌ 合成失败：</strong>
+                <span id="errorMsg"></span>
+            </div>
+
+            <div class="stats" id="stats">
+                <strong>📊 合成统计：</strong>
+                <span id="statsMsg"></span>
+            </div>
+
+            <div class="audio-player" id="audioPlayer">
+                <h3>🔊 播放合成音频</h3>
+                <audio id="audio" controls></audio>
+            </div>
+
+            <div class="api-info">
+                <h3>📚 API 使用示例</h3>
+                <pre><code># Edge TTS（默认）
+curl -X POST http://localhost:3000/v1/tts \
+  -H "Content-Type: application/json" \
+  -d '{"text":"你好世界"}'
+
+# MiMo TTS
+curl -X POST http://localhost:3000/v1/tts \
+  -H "Content-Type: application/json" \
+  -d '{"text":"你好世界","provider":"mimo","voice":"alloy","token":"your-api-key"}'
+
+# 获取语音列表
+curl http://localhost:3000/v1/voices?provider=edge</code></pre>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>read-tts v0.1.0 | 多供应商 TTS 中转服务</p>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('ttsForm');
+        const textInput = document.getElementById('text');
+        const providerSelect = document.getElementById('provider');
+        const voiceSelect = document.getElementById('voice');
+        const formatSelect = document.getElementById('format');
+        const rateSelect = document.getElementById('rate');
+        const pitchSelect = document.getElementById('pitch');
+        const volumeSelect = document.getElementById('volume');
+        const tokenInput = document.getElementById('token');
+        const submitBtn = document.getElementById('submitBtn');
+        const loading = document.getElementById('loading');
+        const error = document.getElementById('error');
+        const errorMsg = document.getElementById('errorMsg');
+        const stats = document.getElementById('stats');
+        const statsMsg = document.getElementById('statsMsg');
+        const audioPlayer = document.getElementById('audioPlayer');
+        const audio = document.getElementById('audio');
+
+        // 供应商变化时更新语音列表
+        providerSelect.addEventListener('change', () => {
+            updateVoiceOptions();
+        });
+
+        function updateVoiceOptions() {
+            const provider = providerSelect.value;
+
+            // 清空现有选项
+            voiceSelect.innerHTML = '';
+
+            if (provider === 'edge') {
+                // Edge TTS 语音
+                const edgeVoices = [
+                    { value: 'zh-CN-XiaoxiaoNeural', text: '晓晓（女声，温暖）' },
+                    { value: 'zh-CN-YunxiNeural', text: '云希（男声，阳光）' },
+                    { value: 'zh-CN-YunjianNeural', text: '云健（男声，成熟）' },
+                    { value: 'zh-CN-XiaoyiNeural', text: '晓伊（女声，活泼）' },
+                    { value: 'zh-CN-YunyangNeural', text: '云扬（男声，专业）' },
+                    { value: 'zh-CN-XiaohanNeural', text: '晓涵（女声，温柔）' },
+                    { value: 'zh-CN-YunzeNeural', text: '云泽（男声，沉稳）' },
+                    { value: 'zh-CN-XiaomengNeural', text: '晓梦（女声，甜美）' },
+                    { value: 'zh-CN-XiaoruiNeural', text: '晓睿（女声，知性）' },
+                    { value: 'zh-CN-XiaoshuangNeural', text: '晓双（女声，童声）' },
+                ];
+                edgeVoices.forEach(voice => {
+                    const option = document.createElement('option');
+                    option.value = voice.value;
+                    option.textContent = voice.text;
+                    voiceSelect.appendChild(option);
+                });
+            } else if (provider === 'mimo') {
+                // MiMo 语音（官方预设）
+                const mimoVoices = [
+                    { value: 'mimo_default', text: 'MiMo 默认' },
+                    { value: '冰糖', text: '冰糖（女声，甜美）' },
+                    { value: '茉莉', text: '茉莉（女声，温柔）' },
+                    { value: '苏打', text: '苏打（女声，活泼）' },
+                    { value: '白桦', text: '白桦（男声，成熟）' },
+                    { value: 'Mia', text: 'Mia（女声）' },
+                    { value: 'Chloe', text: 'Chloe（女声）' },
+                    { value: 'Milo', text: 'Milo（男声）' },
+                    { value: 'Dean', text: 'Dean（男声）' },
+                ];
+                mimoVoices.forEach(voice => {
+                    const option = document.createElement('option');
+                    option.value = voice.value;
+                    option.textContent = voice.text;
+                    voiceSelect.appendChild(option);
+                });
+            }
+        }
+
+        // 表单提交
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const text = textInput.value.trim();
+            if (!text) {
+                showError('请输入要合成的文本');
+                return;
+            }
+
+            // 显示加载状态
+            showLoading(true);
+            hideError();
+            hideStats();
+            hidePlayer();
+
+            const startTime = performance.now();
+
+            try {
+                const response = await fetch('/v1/tts', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        text: text,
+                        provider: providerSelect.value,
+                        voice: voiceSelect.value,
+                        format: formatSelect.value,
+                        rate: rateSelect.value !== '+0%' ? rateSelect.value : undefined,
+                        pitch: pitchSelect.value !== '+0%' ? pitchSelect.value : undefined,
+                        volume: volumeSelect.value !== '+0%' ? volumeSelect.value : undefined,
+                        token: tokenInput.value || undefined,
+                    }),
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    throw new Error(errorData.message || `HTTP ${response.status}`);
+                }
+
+                const audioBlob = await response.blob();
+                const audioUrl = URL.createObjectURL(audioBlob);
+
+                // 显示播放器
+                audio.src = audioUrl;
+                audioPlayer.classList.add('show');
+
+                // 显示统计信息
+                const endTime = performance.now();
+                const duration = ((endTime - startTime) / 1000).toFixed(2);
+                const size = (audioBlob.size / 1024).toFixed(2);
+                statsMsg.textContent = `耗时 ${duration}s，大小 ${size} KB，格式 ${formatSelect.value.toUpperCase()}`;
+                stats.classList.add('show');
+
+            } catch (err) {
+                showError(err.message);
+            } finally {
+                showLoading(false);
+            }
+        });
+
+        function showLoading(show) {
+            loading.classList.toggle('show', show);
+            submitBtn.disabled = show;
+        }
+
+        function showError(msg) {
+            errorMsg.textContent = msg;
+            error.classList.add('show');
+        }
+
+        function hideError() {
+            error.classList.remove('show');
+        }
+
+        function showStats(msg) {
+            statsMsg.textContent = msg;
+            stats.classList.add('show');
+        }
+
+        function hideStats() {
+            stats.classList.remove('show');
+        }
+
+        function hidePlayer() {
+            audioPlayer.classList.remove('show');
+        }
+
+        // 初始化
+        updateVoiceOptions();
+    </script>
+</body>
+</html>

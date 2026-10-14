@@ -1,0 +1,2018 @@
+{
+  "loginUrl": "",
+  "customRules": {},
+  "_TTSName": "Edge + MiMo 全语言音色",
+  "_ClassName": "JxdAdvCustomTTS",
+  "ttsConfigGroup": "Read TTS",
+  "_TTSConfigID": "ceb3ef50839b99580844c66b1feb3672",
+  "ttsHandles": [
+    {
+      "finishedRule": "",
+      "paramsEx": "",
+      "processType": 1,
+      "method": 1,
+      "url": "https://tts.hgyule.cn/v1/tts",
+      "parser": {
+        "playData": "ResponseData"
+      },
+      "params": {
+        "volume": "",
+        "pitch": "",
+        "rate": "",
+        "text": "%@",
+        "provider": "@json:provider",
+        "voiceName": "@json:voiceName",
+        "format": "@json:format"
+      }
+    }
+  ],
+  "voiceList": [
+    {
+      "name": "af-ZA-AdriNeural",
+      "display": "af-ZA-AdriNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "af-ZA-WillemNeural",
+      "display": "af-ZA-WillemNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "am-ET-AmehaNeural",
+      "display": "am-ET-AmehaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "am-ET-MekdesNeural",
+      "display": "am-ET-MekdesNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-AE-FatimaNeural",
+      "display": "ar-AE-FatimaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-AE-HamdanNeural",
+      "display": "ar-AE-HamdanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-BH-AliNeural",
+      "display": "ar-BH-AliNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-BH-LailaNeural",
+      "display": "ar-BH-LailaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-DZ-AminaNeural",
+      "display": "ar-DZ-AminaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-DZ-IsmaelNeural",
+      "display": "ar-DZ-IsmaelNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-EG-SalmaNeural",
+      "display": "ar-EG-SalmaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-EG-ShakirNeural",
+      "display": "ar-EG-ShakirNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-IQ-BasselNeural",
+      "display": "ar-IQ-BasselNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-IQ-RanaNeural",
+      "display": "ar-IQ-RanaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-JO-SanaNeural",
+      "display": "ar-JO-SanaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-JO-TaimNeural",
+      "display": "ar-JO-TaimNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-KW-FahedNeural",
+      "display": "ar-KW-FahedNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-KW-NouraNeural",
+      "display": "ar-KW-NouraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-LB-LaylaNeural",
+      "display": "ar-LB-LaylaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-LB-RamiNeural",
+      "display": "ar-LB-RamiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-LY-ImanNeural",
+      "display": "ar-LY-ImanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-LY-OmarNeural",
+      "display": "ar-LY-OmarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-MA-JamalNeural",
+      "display": "ar-MA-JamalNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-MA-MounaNeural",
+      "display": "ar-MA-MounaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-OM-AbdullahNeural",
+      "display": "ar-OM-AbdullahNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-OM-AyshaNeural",
+      "display": "ar-OM-AyshaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-QA-AmalNeural",
+      "display": "ar-QA-AmalNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-QA-MoazNeural",
+      "display": "ar-QA-MoazNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-SA-HamedNeural",
+      "display": "ar-SA-HamedNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-SA-ZariyahNeural",
+      "display": "ar-SA-ZariyahNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-SY-AmanyNeural",
+      "display": "ar-SY-AmanyNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-SY-LaithNeural",
+      "display": "ar-SY-LaithNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-TN-HediNeural",
+      "display": "ar-TN-HediNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-TN-ReemNeural",
+      "display": "ar-TN-ReemNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-YE-MaryamNeural",
+      "display": "ar-YE-MaryamNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ar-YE-SalehNeural",
+      "display": "ar-YE-SalehNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "az-AZ-BabekNeural",
+      "display": "az-AZ-BabekNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "az-AZ-BanuNeural",
+      "display": "az-AZ-BanuNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bg-BG-BorislavNeural",
+      "display": "bg-BG-BorislavNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bg-BG-KalinaNeural",
+      "display": "bg-BG-KalinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bn-BD-NabanitaNeural",
+      "display": "bn-BD-NabanitaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bn-BD-PradeepNeural",
+      "display": "bn-BD-PradeepNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bn-IN-BashkarNeural",
+      "display": "bn-IN-BashkarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bn-IN-TanishaaNeural",
+      "display": "bn-IN-TanishaaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bs-BA-VesnaNeural",
+      "display": "bs-BA-VesnaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "bs-BA-GoranNeural",
+      "display": "bs-BA-GoranNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ca-ES-EnricNeural",
+      "display": "ca-ES-EnricNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ca-ES-JoanaNeural",
+      "display": "ca-ES-JoanaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "cs-CZ-AntoninNeural",
+      "display": "cs-CZ-AntoninNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "cs-CZ-VlastaNeural",
+      "display": "cs-CZ-VlastaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "cy-GB-AledNeural",
+      "display": "cy-GB-AledNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "cy-GB-NiaNeural",
+      "display": "cy-GB-NiaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "da-DK-ChristelNeural",
+      "display": "da-DK-ChristelNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "da-DK-JeppeNeural",
+      "display": "da-DK-JeppeNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-AT-IngridNeural",
+      "display": "de-AT-IngridNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-AT-JonasNeural",
+      "display": "de-AT-JonasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-CH-JanNeural",
+      "display": "de-CH-JanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-CH-LeniNeural",
+      "display": "de-CH-LeniNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-DE-SeraphinaMultilingualNeural",
+      "display": "de-DE-SeraphinaMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-DE-FlorianMultilingualNeural",
+      "display": "de-DE-FlorianMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-DE-AmalaNeural",
+      "display": "de-DE-AmalaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-DE-ConradNeural",
+      "display": "de-DE-ConradNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-DE-KatjaNeural",
+      "display": "de-DE-KatjaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "de-DE-KillianNeural",
+      "display": "de-DE-KillianNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "el-GR-AthinaNeural",
+      "display": "el-GR-AthinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "el-GR-NestorasNeural",
+      "display": "el-GR-NestorasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-AU-WilliamMultilingualNeural",
+      "display": "en-AU-WilliamMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-AU-NatashaNeural",
+      "display": "娜塔莎",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-CA-ClaraNeural",
+      "display": "en-CA-ClaraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-CA-LiamNeural",
+      "display": "en-CA-LiamNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-GB-LibbyNeural",
+      "display": "en-GB-LibbyNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-GB-MaisieNeural",
+      "display": "en-GB-MaisieNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-GB-RyanNeural",
+      "display": "瑞安",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-GB-SoniaNeural",
+      "display": "索妮娅",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-GB-ThomasNeural",
+      "display": "en-GB-ThomasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-HK-YanNeural",
+      "display": "en-HK-YanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-HK-SamNeural",
+      "display": "en-HK-SamNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-IE-ConnorNeural",
+      "display": "en-IE-ConnorNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-IE-EmilyNeural",
+      "display": "en-IE-EmilyNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-IN-NeerjaExpressiveNeural",
+      "display": "en-IN-NeerjaExpressiveNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-IN-NeerjaNeural",
+      "display": "en-IN-NeerjaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-IN-PrabhatNeural",
+      "display": "en-IN-PrabhatNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-KE-AsiliaNeural",
+      "display": "en-KE-AsiliaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-KE-ChilembaNeural",
+      "display": "en-KE-ChilembaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-NG-AbeoNeural",
+      "display": "en-NG-AbeoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-NG-EzinneNeural",
+      "display": "en-NG-EzinneNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-NZ-MitchellNeural",
+      "display": "en-NZ-MitchellNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-NZ-MollyNeural",
+      "display": "en-NZ-MollyNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-PH-JamesNeural",
+      "display": "en-PH-JamesNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-PH-RosaNeural",
+      "display": "en-PH-RosaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-SG-LunaNeural",
+      "display": "en-SG-LunaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-SG-WayneNeural",
+      "display": "en-SG-WayneNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-TZ-ElimuNeural",
+      "display": "en-TZ-ElimuNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-TZ-ImaniNeural",
+      "display": "en-TZ-ImaniNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-AvaNeural",
+      "display": "en-US-AvaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-AndrewNeural",
+      "display": "en-US-AndrewNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-EmmaNeural",
+      "display": "en-US-EmmaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-BrianNeural",
+      "display": "en-US-BrianNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-AnaNeural",
+      "display": "安娜",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-AndrewMultilingualNeural",
+      "display": "en-US-AndrewMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-AriaNeural",
+      "display": "阿里娅",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-AvaMultilingualNeural",
+      "display": "en-US-AvaMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-BrianMultilingualNeural",
+      "display": "en-US-BrianMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-ChristopherNeural",
+      "display": "en-US-ChristopherNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-EmmaMultilingualNeural",
+      "display": "en-US-EmmaMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-EricNeural",
+      "display": "en-US-EricNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-GuyNeural",
+      "display": "盖伊",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-JennyNeural",
+      "display": "珍妮",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-MichelleNeural",
+      "display": "en-US-MichelleNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-RogerNeural",
+      "display": "en-US-RogerNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-US-SteffanNeural",
+      "display": "en-US-SteffanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-ZA-LeahNeural",
+      "display": "en-ZA-LeahNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "en-ZA-LukeNeural",
+      "display": "en-ZA-LukeNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-AR-ElenaNeural",
+      "display": "es-AR-ElenaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-AR-TomasNeural",
+      "display": "es-AR-TomasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-BO-MarceloNeural",
+      "display": "es-BO-MarceloNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-BO-SofiaNeural",
+      "display": "es-BO-SofiaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CL-CatalinaNeural",
+      "display": "es-CL-CatalinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CL-LorenzoNeural",
+      "display": "es-CL-LorenzoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CO-GonzaloNeural",
+      "display": "es-CO-GonzaloNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CO-SalomeNeural",
+      "display": "es-CO-SalomeNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CR-JuanNeural",
+      "display": "es-CR-JuanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CR-MariaNeural",
+      "display": "es-CR-MariaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CU-BelkysNeural",
+      "display": "es-CU-BelkysNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-CU-ManuelNeural",
+      "display": "es-CU-ManuelNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-DO-EmilioNeural",
+      "display": "es-DO-EmilioNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-DO-RamonaNeural",
+      "display": "es-DO-RamonaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-EC-AndreaNeural",
+      "display": "es-EC-AndreaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-EC-LuisNeural",
+      "display": "es-EC-LuisNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-ES-XimenaNeural",
+      "display": "es-ES-XimenaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-ES-AlvaroNeural",
+      "display": "es-ES-AlvaroNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-ES-ElviraNeural",
+      "display": "es-ES-ElviraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-GQ-JavierNeural",
+      "display": "es-GQ-JavierNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-GQ-TeresaNeural",
+      "display": "es-GQ-TeresaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-GT-AndresNeural",
+      "display": "es-GT-AndresNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-GT-MartaNeural",
+      "display": "es-GT-MartaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-HN-CarlosNeural",
+      "display": "es-HN-CarlosNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-HN-KarlaNeural",
+      "display": "es-HN-KarlaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-MX-DaliaNeural",
+      "display": "es-MX-DaliaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-MX-JorgeNeural",
+      "display": "es-MX-JorgeNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-NI-FedericoNeural",
+      "display": "es-NI-FedericoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-NI-YolandaNeural",
+      "display": "es-NI-YolandaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PA-MargaritaNeural",
+      "display": "es-PA-MargaritaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PA-RobertoNeural",
+      "display": "es-PA-RobertoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PE-AlexNeural",
+      "display": "es-PE-AlexNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PE-CamilaNeural",
+      "display": "es-PE-CamilaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PR-KarinaNeural",
+      "display": "es-PR-KarinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PR-VictorNeural",
+      "display": "es-PR-VictorNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PY-MarioNeural",
+      "display": "es-PY-MarioNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-PY-TaniaNeural",
+      "display": "es-PY-TaniaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-SV-LorenaNeural",
+      "display": "es-SV-LorenaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-SV-RodrigoNeural",
+      "display": "es-SV-RodrigoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-US-AlonsoNeural",
+      "display": "es-US-AlonsoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-US-PalomaNeural",
+      "display": "es-US-PalomaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-UY-MateoNeural",
+      "display": "es-UY-MateoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-UY-ValentinaNeural",
+      "display": "es-UY-ValentinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-VE-PaolaNeural",
+      "display": "es-VE-PaolaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "es-VE-SebastianNeural",
+      "display": "es-VE-SebastianNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "et-EE-AnuNeural",
+      "display": "et-EE-AnuNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "et-EE-KertNeural",
+      "display": "et-EE-KertNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fa-IR-DilaraNeural",
+      "display": "fa-IR-DilaraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fa-IR-FaridNeural",
+      "display": "fa-IR-FaridNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fi-FI-HarriNeural",
+      "display": "fi-FI-HarriNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fi-FI-NooraNeural",
+      "display": "fi-FI-NooraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fil-PH-AngeloNeural",
+      "display": "fil-PH-AngeloNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fil-PH-BlessicaNeural",
+      "display": "fil-PH-BlessicaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-BE-CharlineNeural",
+      "display": "fr-BE-CharlineNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-BE-GerardNeural",
+      "display": "fr-BE-GerardNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-CA-ThierryNeural",
+      "display": "fr-CA-ThierryNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-CA-AntoineNeural",
+      "display": "fr-CA-AntoineNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-CA-JeanNeural",
+      "display": "fr-CA-JeanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-CA-SylvieNeural",
+      "display": "fr-CA-SylvieNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-CH-ArianeNeural",
+      "display": "fr-CH-ArianeNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-CH-FabriceNeural",
+      "display": "fr-CH-FabriceNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-FR-VivienneMultilingualNeural",
+      "display": "fr-FR-VivienneMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-FR-RemyMultilingualNeural",
+      "display": "fr-FR-RemyMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-FR-DeniseNeural",
+      "display": "fr-FR-DeniseNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-FR-EloiseNeural",
+      "display": "fr-FR-EloiseNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "fr-FR-HenriNeural",
+      "display": "fr-FR-HenriNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ga-IE-ColmNeural",
+      "display": "ga-IE-ColmNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ga-IE-OrlaNeural",
+      "display": "ga-IE-OrlaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "gl-ES-RoiNeural",
+      "display": "gl-ES-RoiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "gl-ES-SabelaNeural",
+      "display": "gl-ES-SabelaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "gu-IN-DhwaniNeural",
+      "display": "gu-IN-DhwaniNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "gu-IN-NiranjanNeural",
+      "display": "gu-IN-NiranjanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "he-IL-AvriNeural",
+      "display": "he-IL-AvriNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "he-IL-HilaNeural",
+      "display": "he-IL-HilaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "hi-IN-MadhurNeural",
+      "display": "hi-IN-MadhurNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "hi-IN-SwaraNeural",
+      "display": "hi-IN-SwaraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "hr-HR-GabrijelaNeural",
+      "display": "hr-HR-GabrijelaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "hr-HR-SreckoNeural",
+      "display": "hr-HR-SreckoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "hu-HU-NoemiNeural",
+      "display": "hu-HU-NoemiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "hu-HU-TamasNeural",
+      "display": "hu-HU-TamasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "id-ID-ArdiNeural",
+      "display": "id-ID-ArdiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "id-ID-GadisNeural",
+      "display": "id-ID-GadisNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "is-IS-GudrunNeural",
+      "display": "is-IS-GudrunNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "is-IS-GunnarNeural",
+      "display": "is-IS-GunnarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "it-IT-GiuseppeMultilingualNeural",
+      "display": "it-IT-GiuseppeMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "it-IT-DiegoNeural",
+      "display": "it-IT-DiegoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "it-IT-ElsaNeural",
+      "display": "it-IT-ElsaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "it-IT-IsabellaNeural",
+      "display": "it-IT-IsabellaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "iu-Cans-CA-SiqiniqNeural",
+      "display": "iu-Cans-CA-SiqiniqNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "iu-Cans-CA-TaqqiqNeural",
+      "display": "iu-Cans-CA-TaqqiqNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "iu-Latn-CA-SiqiniqNeural",
+      "display": "iu-Latn-CA-SiqiniqNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "iu-Latn-CA-TaqqiqNeural",
+      "display": "iu-Latn-CA-TaqqiqNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ja-JP-KeitaNeural",
+      "display": "启太",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ja-JP-NanamiNeural",
+      "display": "七海",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "jv-ID-DimasNeural",
+      "display": "jv-ID-DimasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "jv-ID-SitiNeural",
+      "display": "jv-ID-SitiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ka-GE-EkaNeural",
+      "display": "ka-GE-EkaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ka-GE-GiorgiNeural",
+      "display": "ka-GE-GiorgiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "kk-KZ-AigulNeural",
+      "display": "kk-KZ-AigulNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "kk-KZ-DauletNeural",
+      "display": "kk-KZ-DauletNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "km-KH-PisethNeural",
+      "display": "km-KH-PisethNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "km-KH-SreymomNeural",
+      "display": "km-KH-SreymomNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "kn-IN-GaganNeural",
+      "display": "kn-IN-GaganNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "kn-IN-SapnaNeural",
+      "display": "kn-IN-SapnaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ko-KR-HyunsuMultilingualNeural",
+      "display": "贤洙（多语言）",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ko-KR-InJoonNeural",
+      "display": "仁准",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ko-KR-SunHiNeural",
+      "display": "善姬",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "lo-LA-ChanthavongNeural",
+      "display": "lo-LA-ChanthavongNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "lo-LA-KeomanyNeural",
+      "display": "lo-LA-KeomanyNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "lt-LT-LeonasNeural",
+      "display": "lt-LT-LeonasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "lt-LT-OnaNeural",
+      "display": "lt-LT-OnaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "lv-LV-EveritaNeural",
+      "display": "lv-LV-EveritaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "lv-LV-NilsNeural",
+      "display": "lv-LV-NilsNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mk-MK-AleksandarNeural",
+      "display": "mk-MK-AleksandarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mk-MK-MarijaNeural",
+      "display": "mk-MK-MarijaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ml-IN-MidhunNeural",
+      "display": "ml-IN-MidhunNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ml-IN-SobhanaNeural",
+      "display": "ml-IN-SobhanaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mn-MN-BataaNeural",
+      "display": "mn-MN-BataaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mn-MN-YesuiNeural",
+      "display": "mn-MN-YesuiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mr-IN-AarohiNeural",
+      "display": "mr-IN-AarohiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mr-IN-ManoharNeural",
+      "display": "mr-IN-ManoharNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ms-MY-OsmanNeural",
+      "display": "ms-MY-OsmanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ms-MY-YasminNeural",
+      "display": "ms-MY-YasminNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mt-MT-GraceNeural",
+      "display": "mt-MT-GraceNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mt-MT-JosephNeural",
+      "display": "mt-MT-JosephNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "my-MM-NilarNeural",
+      "display": "my-MM-NilarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "my-MM-ThihaNeural",
+      "display": "my-MM-ThihaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "nb-NO-FinnNeural",
+      "display": "nb-NO-FinnNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "nb-NO-PernilleNeural",
+      "display": "nb-NO-PernilleNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ne-NP-HemkalaNeural",
+      "display": "ne-NP-HemkalaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ne-NP-SagarNeural",
+      "display": "ne-NP-SagarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "nl-BE-ArnaudNeural",
+      "display": "nl-BE-ArnaudNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "nl-BE-DenaNeural",
+      "display": "nl-BE-DenaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "nl-NL-ColetteNeural",
+      "display": "nl-NL-ColetteNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "nl-NL-FennaNeural",
+      "display": "nl-NL-FennaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "nl-NL-MaartenNeural",
+      "display": "nl-NL-MaartenNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "pl-PL-MarekNeural",
+      "display": "pl-PL-MarekNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "pl-PL-ZofiaNeural",
+      "display": "pl-PL-ZofiaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ps-AF-GulNawazNeural",
+      "display": "ps-AF-GulNawazNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ps-AF-LatifaNeural",
+      "display": "ps-AF-LatifaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "pt-BR-ThalitaMultilingualNeural",
+      "display": "pt-BR-ThalitaMultilingualNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "pt-BR-AntonioNeural",
+      "display": "pt-BR-AntonioNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "pt-BR-FranciscaNeural",
+      "display": "pt-BR-FranciscaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "pt-PT-DuarteNeural",
+      "display": "pt-PT-DuarteNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "pt-PT-RaquelNeural",
+      "display": "pt-PT-RaquelNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ro-RO-AlinaNeural",
+      "display": "ro-RO-AlinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ro-RO-EmilNeural",
+      "display": "ro-RO-EmilNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ru-RU-DmitryNeural",
+      "display": "ru-RU-DmitryNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ru-RU-SvetlanaNeural",
+      "display": "ru-RU-SvetlanaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "si-LK-SameeraNeural",
+      "display": "si-LK-SameeraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "si-LK-ThiliniNeural",
+      "display": "si-LK-ThiliniNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sk-SK-LukasNeural",
+      "display": "sk-SK-LukasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sk-SK-ViktoriaNeural",
+      "display": "sk-SK-ViktoriaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sl-SI-PetraNeural",
+      "display": "sl-SI-PetraNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sl-SI-RokNeural",
+      "display": "sl-SI-RokNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "so-SO-MuuseNeural",
+      "display": "so-SO-MuuseNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "so-SO-UbaxNeural",
+      "display": "so-SO-UbaxNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sq-AL-AnilaNeural",
+      "display": "sq-AL-AnilaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sq-AL-IlirNeural",
+      "display": "sq-AL-IlirNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sr-RS-NicholasNeural",
+      "display": "sr-RS-NicholasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sr-RS-SophieNeural",
+      "display": "sr-RS-SophieNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "su-ID-JajangNeural",
+      "display": "su-ID-JajangNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "su-ID-TutiNeural",
+      "display": "su-ID-TutiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sv-SE-MattiasNeural",
+      "display": "sv-SE-MattiasNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sv-SE-SofieNeural",
+      "display": "sv-SE-SofieNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sw-KE-RafikiNeural",
+      "display": "sw-KE-RafikiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sw-KE-ZuriNeural",
+      "display": "sw-KE-ZuriNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sw-TZ-DaudiNeural",
+      "display": "sw-TZ-DaudiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "sw-TZ-RehemaNeural",
+      "display": "sw-TZ-RehemaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-IN-PallaviNeural",
+      "display": "ta-IN-PallaviNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-IN-ValluvarNeural",
+      "display": "ta-IN-ValluvarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-LK-KumarNeural",
+      "display": "ta-LK-KumarNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-LK-SaranyaNeural",
+      "display": "ta-LK-SaranyaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-MY-KaniNeural",
+      "display": "ta-MY-KaniNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-MY-SuryaNeural",
+      "display": "ta-MY-SuryaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-SG-AnbuNeural",
+      "display": "ta-SG-AnbuNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ta-SG-VenbaNeural",
+      "display": "ta-SG-VenbaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "te-IN-MohanNeural",
+      "display": "te-IN-MohanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "te-IN-ShrutiNeural",
+      "display": "te-IN-ShrutiNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "th-TH-NiwatNeural",
+      "display": "th-TH-NiwatNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "th-TH-PremwadeeNeural",
+      "display": "th-TH-PremwadeeNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "tr-TR-EmelNeural",
+      "display": "tr-TR-EmelNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "tr-TR-AhmetNeural",
+      "display": "tr-TR-AhmetNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "uk-UA-OstapNeural",
+      "display": "uk-UA-OstapNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "uk-UA-PolinaNeural",
+      "display": "uk-UA-PolinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ur-IN-GulNeural",
+      "display": "ur-IN-GulNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ur-IN-SalmanNeural",
+      "display": "ur-IN-SalmanNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ur-PK-AsadNeural",
+      "display": "ur-PK-AsadNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "ur-PK-UzmaNeural",
+      "display": "ur-PK-UzmaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "uz-UZ-MadinaNeural",
+      "display": "uz-UZ-MadinaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "uz-UZ-SardorNeural",
+      "display": "uz-UZ-SardorNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "vi-VN-HoaiMyNeural",
+      "display": "vi-VN-HoaiMyNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "vi-VN-NamMinhNeural",
+      "display": "vi-VN-NamMinhNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-XiaoxiaoNeural",
+      "display": "晓晓",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-XiaoyiNeural",
+      "display": "晓伊",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunjianNeural",
+      "display": "云健",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunxiNeural",
+      "display": "云希",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunxiaNeural",
+      "display": "云晓",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-YunyangNeural",
+      "display": "云扬",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-liaoning-XiaobeiNeural",
+      "display": "晓北（辽宁）",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-CN-shaanxi-XiaoniNeural",
+      "display": "晓妮（陕西）",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-HK-HiuGaaiNeural",
+      "display": "晓佳",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-HK-HiuMaanNeural",
+      "display": "晓曼",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-HK-WanLungNeural",
+      "display": "云龙",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-TW-HsiaoChenNeural",
+      "display": "晓臻",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-TW-YunJheNeural",
+      "display": "云哲",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zh-TW-HsiaoYuNeural",
+      "display": "晓雨",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zu-ZA-ThandoNeural",
+      "display": "zu-ZA-ThandoNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "zu-ZA-ThembaNeural",
+      "display": "zu-ZA-ThembaNeural",
+      "provider": "edge",
+      "format": "audio-24khz-48kbitrate-mono-mp3"
+    },
+    {
+      "name": "mimo_default",
+      "display": "MiMo 默认",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "冰糖",
+      "display": "冰糖（女声，甜美）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "茉莉",
+      "display": "茉莉（女声，温柔）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "苏打",
+      "display": "苏打（女声，活泼）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "白桦",
+      "display": "白桦（男声，成熟）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "Mia",
+      "display": "Mia（女声）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "Chloe",
+      "display": "Chloe（女声）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "Milo",
+      "display": "Milo（男声）",
+      "provider": "mimo",
+      "format": "mp3"
+    },
+    {
+      "name": "Dean",
+      "display": "Dean（男声）",
+      "provider": "mimo",
+      "format": "mp3"
+    }
+  ],
+  "authorID": "ivBfbQCzRT6RTO1wGagmAUeJuyUSazgY5ktKWf3Lc7ot2KeKpM56kjQDveisFVa7"
+}

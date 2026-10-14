@@ -1,0 +1,12 @@
+node_modules
+.git
+.gitignore
+.env
+*.md
+tests
+docs
+.idea
+.reasonix
+reasonix.toml
+data
+*.mp3
